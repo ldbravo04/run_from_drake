@@ -25,6 +25,6 @@ var enemy = {
       }
   },
     render: function(){
-       ctx.drawImage(this.sprite, this.x, this.y);
+       ctx.drawImage(this.sprite, this.x, this.y,100,100);
    }
 };
