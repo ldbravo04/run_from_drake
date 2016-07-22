@@ -26,7 +26,7 @@ var player = {
       if (this.dir == "right"){
         flipCtx(ctx, this);
       }
-      ctx.drawImage(this.sprite[this.spriteNum], this.x, this.y,100,150);
+      ctx.drawImage(this.sprite[this.spriteNum], this.x, this.y,50,50);
       if (this.dir == "right"){
         ctx.restore();
       }
