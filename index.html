@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>my first html5 game</title>
+  </head>
+  <style>
+    body{
+      margin:0; padding: 0;
+    }
+    canvas{
+      display:block;
+      margin: 0 auto;
+    }
+    #player, #bg, .hid{
+      display: none;
+    }
+  </style>
+  <body>
+    <img id=bg src="pics/Newbark.png"/>
+    <img id="player" src="pics/squirtle-small.png">
+    <img class="hid"  id="enemy" src="pics/drake.png">
+    <img class="hid" src="pics/playerf1.png" id="player1">
+    <img class="hid" src="pics/playerf2.png" id="player2">
+    <img class="hid" src="pics/playerf3.png" id="player3">
+    <img class="hid" src="pics/playerf4.png" id="player4">
+    <canvas id="canvas"></canvas>
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+    <script src="player.js"></script>
+    <script src="enemy.js"></script>
+    <script src="main.js"></script>
+    <script src="controls.js"></script>
+  </body>
+</html>
